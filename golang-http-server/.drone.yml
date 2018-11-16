@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: plugins/docker
+    repo: 2886795377-5000-cykoria03.environments.katacoda.com/test/docker-http-server
+    tags: 
+      - 1.0.0
+      - 1.0
+      - latest
